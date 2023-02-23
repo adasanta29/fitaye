@@ -8,7 +8,7 @@ const Calendar = () => {
     const colors = tokens(theme.palette.mode);
     return (
         <Box m="20px">
-            <Header title="Calendar" subtitle="Check out your schedule"/>
+            <Header title="CALENDAR" subtitle="Check out your schedule"/>
 
         </Box>
     )

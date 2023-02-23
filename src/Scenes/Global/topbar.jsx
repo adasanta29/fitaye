@@ -9,6 +9,8 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 import SearchIcon from "@mui/icons-material/Search";
+import Link from "@mui/material/Link";
+import { styled } from "@mui/system";
 
 const Topbar = () => {
     const theme = useTheme();
@@ -45,8 +47,8 @@ const Topbar = () => {
                 <HelpOutlineOutlinedIcon/>
             </IconButton>
 
-            <IconButton>
-                <PersonOutlinedIcon/>
+            <IconButton sx={{mt: 0.7}}>
+                <Link href="/profile" sx={{color: 'white'}}><PersonOutlinedIcon/></Link>
             </IconButton>
         </Box>
     </Box>)

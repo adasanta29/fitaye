@@ -18,7 +18,7 @@ import WalletOutlined from "@mui/icons-material/WalletOutlined";
 import MessageOutlinedIcon from '@mui/icons-material/MessageOutlined';
 import NoteAltOutlinedIcon from '@mui/icons-material/NoteAltOutlined';
 import PaymentOutlinedIcon from '@mui/icons-material/PaymentOutlined';
-import Logo from '../../Content/fitayelogo.png'
+import Logo from '../../Content/fitayelogo.png';
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
     const theme = useTheme();
@@ -98,9 +98,9 @@ const Sidebar = () => {
                                 alt="profile-user"
                                 width="100px"
                                 height="100px"
-                                src= {`../../assets/userplaceholder.jpeg`}
+                                src= {`../../assets/userplaceholder.jpg`}
                                 style={{cursor: "pointer", borderRadius: "50%"}}
-                            />
+                                />
                             </Box>
 
                             <Box textAlign="center">
@@ -206,6 +206,17 @@ const Sidebar = () => {
                         icon={<MessageOutlinedIcon/>}
                         selected={selected}
                         setSelected={setSelected}
+                        />
+
+                    </Box>
+
+                    <Box display="flex" justifyContent="center" alignItems="center" mt="8rem">
+                        <img 
+                            alt="fitaye-logo"
+                            width="200px"
+                            height="200px"
+                            src= {`../../assets/fitaye_icon.jpg`}
+                            style={{cursor: "pointer", borderRadius: "50%"}}
                         />
                     </Box>
 

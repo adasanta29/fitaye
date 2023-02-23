@@ -13,8 +13,13 @@ import Verify from "./Scenes/Verify";
 import Wallet from "./Scenes/Wallet";
 import Invoices from "./Scenes/Invoices"
 import Chats from "./Scenes/Chats";
-import Add from "./Scenes/Packages/add"
-import Docs from "./Scenes/Packages/docs"
+import Add from "./Scenes/Packages/add";
+import Docs from "./Scenes/Packages/docs";
+import Profile from "./Scenes/Profile";
+import Earnings from "./Scenes/Profile/earnings";
+import Myprofile from "./Scenes/Profile/myprofile";
+import Bank from "./Scenes/Profile/bankdetails";
+import ProfilePackages from "./Scenes/Profile/profile-packages";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -40,6 +45,11 @@ function App() {
               {<Route path="/chats" element={<Chats/>}/>}
               {<Route path="/add" element={<Add/>}/>}
               {<Route path="/docs" element={<Docs/>}/>}
+              {<Route path="/profile" element={<Profile/>}/>}
+              {<Route path="/earnings" element={<Earnings/>}/>}
+              {<Route path="/myprofile" element={<Myprofile/>}/>}
+              {<Route path="/bankdetails" element={<Bank/>}/>}
+              {<Route path="/profile-packages" element={<ProfilePackages/>}/>}
             </Routes>
           </main>
         </div>

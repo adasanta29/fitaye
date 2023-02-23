@@ -24,7 +24,7 @@ const Notes = () => {
 
     return (
         <Box m="20px">
-            <Header title="Notes" subtitle="Create notes for clients to keep track of their progress"/>
+            <Header title="NOTES" subtitle="Create notes for clients to keep track of their progress"/>
             <Box m="40px 0 0 0" height="75vh" sx={{
                 "& .MuiDataGrid-root": {
                     border: "none"

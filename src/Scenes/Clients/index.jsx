@@ -32,12 +32,11 @@ const Clients = () => {
                     display="flex"
                     justifyContent="center"
                     backgroundColor= {
-                        type === "Private" && colors.greenAccent[900] || type === "Semi-Private" && colors.greenAccent[800] || type === "Group" && colors.greenAccent[700]
+                        type === "Private" && colors.greenAccent[900] || type === "Group" && colors.greenAccent[700]
                     }
                     borderRadius="4px"
                 >
                     {type ==="Private" && <PersonOutlinedIcon/>}
-                    {type ==="Semi-Private" && <PeopleAltOutlinedIcon/>}
                     {type ==="Group" && <GroupsOutlinedIcon/>}
                     
                     <Typography color={colors.grey[100]} sx={{ml: "5px"}}>

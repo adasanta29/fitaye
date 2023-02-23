@@ -54,7 +54,7 @@ export const mockDataTeam = [
     age: 150,
     phone: "(232)545-6483",
     class: "HIIT Fitness",
-    type: "Semi-Private",
+    type: "Group",
   },
   {
     id: 7,
@@ -72,7 +72,7 @@ export const mockDataTeam = [
     age: 36,
     phone: "(222)444-5555",
     class: "Boxing",
-    type: "Semi-Private",
+    type: "Group",
   },
   {
     id: 9,
