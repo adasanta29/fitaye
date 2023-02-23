@@ -20,6 +20,7 @@ import Earnings from "./Scenes/Profile/earnings";
 import Myprofile from "./Scenes/Profile/myprofile";
 import Bank from "./Scenes/Profile/bankdetails";
 import ProfilePackages from "./Scenes/Profile/profile-packages";
+import Availability from './Scenes/Calendar/avail';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -50,6 +51,7 @@ function App() {
               {<Route path="/myprofile" element={<Myprofile/>}/>}
               {<Route path="/bankdetails" element={<Bank/>}/>}
               {<Route path="/profile-packages" element={<ProfilePackages/>}/>}
+              {<Route path="/avail" element={<Availability/>}/>}
             </Routes>
           </main>
         </div>
