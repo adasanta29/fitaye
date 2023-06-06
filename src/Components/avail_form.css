@@ -1,0 +1,19 @@
+.option__select {
+    color: #141b2d;
+}
+
+.date__picker {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.time__picker {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.never__checkbox {
+    padding-top: 2rem;
+}

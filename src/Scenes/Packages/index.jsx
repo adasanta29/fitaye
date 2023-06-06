@@ -50,7 +50,7 @@ const Packages = () => {
             <Box sx={{display: 'flex', justifyContent:'center', mt:'10%'}}>
                 <Box sx={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", width: '90%', gap: '10%', justifyContent: 'center', alignItems:'center' }}>
                     <Con>
-                        <ConHeader>View/Delete your Packages</ConHeader>
+                        <ConHeader>View/Edit/Delete your Packages</ConHeader>
 
                         <ConList>
                             <ListItem>
@@ -85,7 +85,7 @@ const Packages = () => {
                     </Con>
 
                     <Con>
-                        <ConHeader>Add a New Package</ConHeader>
+                        <ConHeader>Add a New Sport</ConHeader>
 
                         <CTA href="/add" variant="contained">
                             Continue
